@@ -1,30 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Σχετικά",
-    "section": "",
-    "text": "Λίγα λόγια για σένα."
+    "objectID": "posts/test.html#footnotes",
+    "href": "posts/test.html#footnotes",
+    "title": "A test article",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFootnotes appear at the end of the article.↩︎"
   },
   {
-    "objectID": "posts/test.html",
-    "href": "posts/test.html",
-    "title": "Δοκιμαστικό άρθρο",
-    "section": "",
-    "text": "Inline μαθηματικά \\(x^2\\) και display:\n\\[\n\\sum_{n=1}^{N} n = \\frac{N(N+1)}{2}\n\\]\n\nTheorem 1 ((Όνομα θεωρήματος)) Κείμενο του θεωρήματος εδώ.\n\n\nProof. Κείμενο της απόδειξης εδώ.\n\nΠαραπομπή: Theorem 1. Μια υποσημείωση1.\n1 Αυτό θα εμφανιστεί στο περιθώριο."
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html",
-    "href": "posts/Existence and uniqueness of maximal atlas.html",
-    "title": "Existence and uniqueness of maximal atlas",
-    "section": "",
-    "text": "Theorem 1 ((Προαιρετικός τίτλος)) Διατύπωση.\n\n\nProof. Απόδειξη."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#ορισμοί",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#ορισμοί",
     "title": "Explorer",
-    "section": "",
-    "text": "Γράψε εδώ δύο-τρεις προτάσεις με δική σου φωνή: τι είναι αυτό το μέρος και γιατί υπάρχει.\n\n\n\n\n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nOct 5, 2026\n\n\nExistence and uniqueness of maximal atlas\n\n\n\n\n\n\nOct 4, 2026\n\n\nΔοκιμαστικό άρθρο\n\n\n\n\n\n\nNo matching items"
+    "section": "Ορισμοί",
+    "text": "Ορισμοί\n\nDefinition 1 ((Όρος)) Ορισμός εδώ."
+  },
+  {
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#το-βασικό-αποτέλεσμα",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#το-βασικό-αποτέλεσμα",
+    "title": "Explorer",
+    "section": "Το βασικό αποτέλεσμα",
+    "text": "Το βασικό αποτέλεσμα\n\nTheorem 1 ((Όνομα θεωρήματος)) Διατύπωση εδώ.\n\n\nProof. Απόδειξη εδώ.\n\n\nRemark. Παρατήρηση εδώ.\n\nΠαραπομπή στον ορισμό: Definition 1. Υποσημείωση στο περιθώριο1."
+  },
+  {
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#σχήμα",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#σχήμα",
+    "title": "Explorer",
+    "section": "Σχήμα",
+    "text": "Σχήμα"
+  },
+  {
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
+    "title": "Explorer",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nΚείμενο υποσημείωσης.↩︎"
   }
 ]
