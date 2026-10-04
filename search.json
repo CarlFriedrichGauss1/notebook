@@ -1,37 +1,30 @@
 [
   {
-    "objectID": "posts/test.html#footnotes",
-    "href": "posts/test.html#footnotes",
-    "title": "A test article",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nFootnotes appear at the end of the article.↩︎"
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#definitions",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#definitions",
+    "title": "Explorer",
+    "section": "Definitions",
+    "text": "Definitions\n\nDefinition 1 (Term) Definition here."
   },
   {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#ορισμοί",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#ορισμοί",
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#main-result",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#main-result",
     "title": "Explorer",
-    "section": "Ορισμοί",
-    "text": "Ορισμοί\n\nDefinition 1 ((Όρος)) Ορισμός εδώ."
+    "section": "Main result",
+    "text": "Main result\n\nTheorem 1 (Name of the theorem) Statement here.\n\n\nProof. Proof here.\n\n\nRemark. Remark here.\n\nReference to the definition: Definition 1. A footnote1."
   },
   {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#το-βασικό-αποτέλεσμα",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#το-βασικό-αποτέλεσμα",
+    "objectID": "posts/Existence and uniqueness of maximal atlas.html#figure",
+    "href": "posts/Existence and uniqueness of maximal atlas.html#figure",
     "title": "Explorer",
-    "section": "Το βασικό αποτέλεσμα",
-    "text": "Το βασικό αποτέλεσμα\n\nTheorem 1 ((Όνομα θεωρήματος)) Διατύπωση εδώ.\n\n\nProof. Απόδειξη εδώ.\n\n\nRemark. Παρατήρηση εδώ.\n\nΠαραπομπή στον ορισμό: Definition 1. Υποσημείωση στο περιθώριο1."
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#σχήμα",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#σχήμα",
-    "title": "Explorer",
-    "section": "Σχήμα",
-    "text": "Σχήμα"
+    "section": "Figure",
+    "text": "Figure"
   },
   {
     "objectID": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
     "href": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
     "title": "Explorer",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nΚείμενο υποσημείωσης.↩︎"
+    "text": "Footnotes\n\n\nFootnote text.↩︎"
   }
 ]
