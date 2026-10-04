@@ -11,4 +11,4 @@ listing:
   feed: true
 ---
 
-Γράψε εδώ δύο-τρεις προτάσεις με δική σου φωνή: τι είναι αυτό το μέρος και γιατί υπάρχει.
+A few sentences about what this place is for.

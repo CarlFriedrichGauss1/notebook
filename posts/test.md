@@ -1,24 +1,24 @@
 ---
-title: "Δοκιμαστικό άρθρο"
+title: "A test article"
 date: 2026-10-04
 ---
 
-Inline μαθηματικά $x^2$ και display:
+Inline math $x^2$ and a display equation:
 
 $$
 \sum_{n=1}^{N} n = \frac{N(N+1)}{2}
 $$
 
 ::: {#thm-test}
-## (Όνομα θεωρήματος)
-Κείμενο του θεωρήματος εδώ.
+## Name of the theorem
+Statement of the theorem goes here.
 :::
 
 ::: {.proof}
-Κείμενο της απόδειξης εδώ.
+Proof goes here.
 :::
 
-Παραπομπή: @thm-test. Μια υποσημείωση^[Αυτό θα εμφανιστεί στο περιθώριο.].
+Reference: @thm-test. A footnote^[Footnotes appear at the end of the article.].
 
 * * *
 

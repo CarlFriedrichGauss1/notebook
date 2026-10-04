@@ -11,14 +11,12 @@
             "id": "b627e25114477ba1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
+                "file": "test_files/mediabag/d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc.svg"
               },
-              "icon": "lucide-file",
-              "title": "test"
+              "icon": "lucide-image",
+              "title": "d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc"
             }
           },
           {
@@ -206,13 +204,20 @@
   "active": "89da603fbea8c7bd",
   "lastOpenFiles": [
     "test.html",
-    "diagram-e1ead37394d58d8cdfcb1be8cf3ff68d35c990c1.pdf",
+    "diagram-c47d8e437c16c9418e952e068f165efaa4364576.pdf",
     "Existence and uniqueness of maximal atlas.html",
-    "Existence and uniqueness of maximal atlas_files/mediabag",
-    "Existence and uniqueness of maximal atlas_files",
-    "diagram-bf1dd302ac22c52c814d16a25d0c4b045a2d4903.pdf",
+    "diagram-54926d0a4df132ccc97c8a49b1cfc9084b4c7a0a.pdf",
+    "diagram-91316cf52d5ac4fa5d7de65398e0282a35cafb0d.pdf",
+    "diagram-803d1a76e9d8f8fad9a340afaaabf0daa81d0426.pdf",
+    "diagram-0f2a2bf95fb768d74beb8e144bed23745e273193.pdf",
+    "diagram-3bb9801d110955a82eb04f7f86a3dc79e256515f.pdf",
+    "diagram-af8a06e8fbbf6341f0c55e82b2ee58cf70dfccca.pdf",
     "test.md",
+    "diagram-9f2620fb3325a284ee0c2504a5a510168083272c.pdf",
+    "diagram-655c7063afd84dc75df153213959714f248caa20.pdf",
+    "Existence and uniqueness of maximal atlas_files/mediabag/d61ed5bcc8b78f1a71b5cdef74b81cb2babac2b5.svg",
     "Existence and uniqueness of maximal atlas.md",
+    "_templates/article.md",
     "test_files/mediabag/d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc.svg"
   ]
 }

@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-// ===== ΠΑΛΕΤΑ ΚΑΙ ΓΡΑΜΜΑΤΟΣΕΙΡΕΣ: αλλάζεις μόνο εδώ =====
+// ===== PALETTE AND FONTS: edit here =====
 $paper:  #faf7f0;
 $ink:    #1f1d1a;
 $muted:  #7a756a;
@@ -19,65 +19,102 @@ $font-size-base: 1.2rem;
 $line-height-base: 1.6;
 $headings-font-weight: 500;
 
-$grid-body-width: 680px;
-$grid-margin-width: 260px;
-
 $navbar-bg: $paper;
 $navbar-fg: $ink;
 $navbar-hover-color: $accent;
 
-/*-- scss:rules --*/
-body {
-  text-rendering: optimizeLegibility;
-  font-feature-settings: "liga", "onum";
-}
+// ===== LAYOUT: one column shared by navbar, content and footer =====
+$measure: 42rem;     // text width
+$gutter: 1.25rem;    // side padding (also the breathing room on phones)
 
-/* μαστ-χεντ */
+/*-- scss:rules --*/
+body { text-rendering: optimizeLegibility; font-feature-settings: "liga", "onum"; }
+
+/* --- the shared column --- */
+#quarto-content.page-layout-custom {
+  max-width: calc(#{$measure} + 2 * #{$gutter});
+  margin: 0 auto;
+  padding: 2.5rem $gutter 4rem;
+}
+.navbar > .navbar-container {
+  max-width: calc(#{$measure} + 2 * #{$gutter});
+  margin: 0 auto;
+  padding: 0 $gutter;
+}
+.navbar .navbar-brand-container { margin-left: 0 !important; }
+.navbar .navbar-brand { padding-left: 0; margin-left: 0; }
+.navbar .navbar-nav .nav-link { padding-right: 0; padding-left: 1.1rem; }
 .navbar { border-bottom: 1px solid $rule; box-shadow: none; }
 .navbar .navbar-title { font-style: italic; font-size: 1.35rem; }
 .navbar .nav-link { font-variant: small-caps; letter-spacing: 0.06em; }
 
-/* τίτλοι */
-h1.title { font-style: italic; font-size: 2.5rem; margin-bottom: 0.3em; }
+.nav-footer { border-top: 1px solid $rule; color: $muted; font-size: 0.9rem; }
+
+/* --- title block --- */
+h1.title { font-style: italic; font-size: 2.5rem; margin: 0 0 0.25em; }
+.quarto-title-meta { margin: 0 0 1.8rem; }
+.quarto-title-meta-heading { display: none; }
+.quarto-title-meta p.date { margin: 0; color: $muted; font-variant: small-caps; letter-spacing: 0.05em; }
+
+/* --- headings --- */
 h2 { font-size: 1.6rem; margin-top: 2.2em; border-bottom: none; }
-.quarto-title-meta { color: $muted; font-variant: small-caps; letter-spacing: 0.04em; }
+h3 { font-size: 1.3rem; margin-top: 1.8em; }
 
-/* links μέσα στο κείμενο: διακριτική υπογράμμιση */
-main.content p a, main.content li a {
-  border-bottom: 1px solid rgba(139, 46, 46, 0.35);
-}
-main.content p a:hover, main.content li a:hover { border-bottom-color: $accent; }
+/* --- in-text links --- */
+#quarto-content p a, #quarto-content li a { border-bottom: 1px solid rgba(139, 46, 46, 0.35); }
+#quarto-content p a:hover, #quarto-content li a:hover { border-bottom-color: $accent; }
 
-/* διαχωριστής ενοτήτων (στο markdown: * * *) */
-hr {
-  border: 0; background: none; opacity: 1; height: auto;
-  text-align: center; margin: 2.2em 0;
-}
-hr::after { content: "❦"; font-size: 1.3rem; color: $accent; }
+/* --- section divider (markdown: * * *) --- */
+hr { border: 0; background: none; opacity: 1; height: auto; text-align: center; margin: 2.2em 0; }
+hr::after { content: "\2766"; font-size: 1.3rem; color: $accent; }
 
-/* πίνακες σε στυλ βιβλίου (μόνο οριζόντιες γραμμές) */
-main.content table {
-  border-top: 1.5px solid $ink !important;
-  border-bottom: 1.5px solid $ink !important;
-}
-main.content table th, main.content table td { border: 0 !important; background: none; }
-main.content table thead th {
-  border-bottom: 1px solid $ink !important;
-  font-variant: small-caps; font-weight: 500;
-}
-
-/* θεωρήματα και αποδείξεις */
+/* --- theorems: the rule hangs in the gutter so the TEXT stays on the column edge --- */
 .theorem, .lemma, .proposition, .corollary { font-style: italic; }
 .theorem, .lemma, .proposition, .corollary,
 .definition, .remark, .example, .conjecture {
-  margin: 1.4em 0; padding-left: 1em; border-left: 2px solid $rule;
+  margin: 1.4em 0 1.4em calc(-0.8em - 2px);
+  padding-left: 0.8em;
+  border-left: 2px solid $rule;
 }
+.theorem p:last-child, .lemma p:last-child, .proposition p:last-child, .corollary p:last-child,
+.definition p:last-child, .remark p:last-child, .example p:last-child { margin-bottom: 0; }
 .proof { margin: 1.2em 0; }
 .theorem-title, .lemma-title, .proposition-title, .corollary-title,
 .definition-title, .remark-title, .example-title, .conjecture-title {
   font-style: normal; font-variant: small-caps; letter-spacing: 0.03em;
 }
 
-/* footer και λεπτομέρειες */
-.nav-footer { border-top: 1px solid $rule; color: $muted; font-size: 0.9rem; }
+/* --- tables inside articles: book style --- */
+#quarto-content table:not(.quarto-listing-table) {
+  border-top: 1.5px solid $ink; border-bottom: 1.5px solid $ink; width: 100%;
+}
+#quarto-content table:not(.quarto-listing-table) th,
+#quarto-content table:not(.quarto-listing-table) td { border: 0; background: none; }
+#quarto-content table:not(.quarto-listing-table) thead th {
+  border-bottom: 1px solid $ink; font-variant: small-caps; font-weight: 500;
+}
+
+/* --- home page index: a clean two-column list, flush with the column --- */
+table.quarto-listing-table { width: 100%; margin-top: 1.5rem; border: 0; }
+table.quarto-listing-table thead { display: none; }
+table.quarto-listing-table td {
+  border: 0; border-bottom: 1px solid $rule; background: none;
+  padding: 0.55rem 0; vertical-align: baseline;
+}
+table.quarto-listing-table tr:first-child td { border-top: 1px solid $rule; }
+table.quarto-listing-table td:first-child {
+  width: 9.5rem; white-space: nowrap; color: $muted;
+  font-variant: small-caps; letter-spacing: 0.04em;
+}
+
+/* --- footnotes at the end --- */
+section.footnotes { font-size: 0.9rem; color: $muted; margin-top: 3rem; }
+section.footnotes hr { display: none; }
+
 ::selection { background: rgba(139, 46, 46, 0.2); }
+
+/* --- phones: navbar controls sit on the same edges as the text --- */
+@media (max-width: 991.98px) {
+  .navbar > .navbar-container { padding-left: 0; padding-right: 0; }
+  .navbar .navbar-toggler { margin-left: -0.35rem; }
+}

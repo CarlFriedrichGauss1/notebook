@@ -1,18 +1,20 @@
 project:
   type: website
 
+lang: en
+
 website:
   title: "Explorer"
   site-url: "https://CarlFriedrichGauss1.github.io/notebook"
   favicon: favicon.svg
   navbar:
     right:
-      - text: "Άρθρα"
+      - text: "Posts"
         href: index.qmd
-      - text: "Σχετικά"
+      - text: "About"
         href: about.qmd
   page-footer:
-    center: "© 2026 Explorer · Γραμμένο σε LaTeX, φτιαγμένο με Quarto"
+    center: "© 2026 Explorer"
 
 filters:
   - diagram
@@ -26,11 +28,8 @@ diagram:
 format:
   html:
     theme: [cosmo, custom.scss]
-    toc: true
-    toc-location: left
-    toc-depth: 2
-    reference-location: margin
-    citation-location: margin
+    page-layout: custom
+    toc: false
     include-in-header:
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">

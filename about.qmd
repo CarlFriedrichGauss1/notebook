@@ -1,6 +1,6 @@
 ---
-title: "Σχετικά"
+title: "About"
 toc: false
 ---
 
-Λίγα λόγια για σένα.
+A few words about me.
