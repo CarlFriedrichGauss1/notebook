@@ -118,3 +118,11 @@ section.footnotes hr { display: none; }
   .navbar > .navbar-container { padding-left: 0; padding-right: 0; }
   .navbar .navbar-toggler { margin-left: -0.35rem; }
 }
+
+/* --- TikZ figures: scaled up to match body text, centered --- */
+#quarto-content img[src*="mediabag"] {
+  display: block;
+  margin: 1.8rem auto;
+  zoom: 1.45;
+  max-width: 100%;
+}

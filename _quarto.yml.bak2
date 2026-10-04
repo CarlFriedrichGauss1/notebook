@@ -17,7 +17,6 @@ website:
     center: "© 2026 Explorer"
 
 filters:
-  - filters/tikzjax-compat.lua
   - diagram
 
 diagram:
@@ -27,7 +26,6 @@ diagram:
         - '\usepackage{amsmath,amssymb}'
         - '\usepackage{tikz-cd}'
         - '\usetikzlibrary{arrows.meta,positioning}'
-
 
 format:
   html:

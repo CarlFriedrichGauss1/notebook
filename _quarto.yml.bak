@@ -17,17 +17,13 @@ website:
     center: "© 2026 Explorer"
 
 filters:
-  - filters/tikzjax-compat.lua
   - diagram
 
 diagram:
   engine:
     tikz:
-      header-includes:
-        - '\usepackage{amsmath,amssymb}'
-        - '\usepackage{tikz-cd}'
-        - '\usetikzlibrary{arrows.meta,positioning}'
-
+      additional-packages: |
+        \usepackage{amsmath,amssymb,tikz-cd}
 
 format:
   html:
