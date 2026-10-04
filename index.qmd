@@ -1,0 +1,14 @@
+---
+title: "Explorer"
+toc: false
+listing:
+  contents: posts
+  type: table
+  fields: [date, title]
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  feed: true
+---
+
+Γράψε εδώ δύο-τρεις προτάσεις με δική σου φωνή: τι είναι αυτό το μέρος και γιατί υπάρχει.

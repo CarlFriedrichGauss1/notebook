@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+// ===== ΠΑΛΕΤΑ ΚΑΙ ΓΡΑΜΜΑΤΟΣΕΙΡΕΣ: αλλάζεις μόνο εδώ =====
+$paper:  #faf7f0;
+$ink:    #1f1d1a;
+$muted:  #7a756a;
+$accent: #8b2e2e;
+$rule:   #ddd6c6;
+
+$font-family-base: "EB Garamond", "Palatino Linotype", Georgia, serif;
+$font-family-sans-serif: $font-family-base;
+$headings-font-family: $font-family-base;
+$font-family-monospace: "IBM Plex Mono", Menlo, monospace;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $accent;
+$link-decoration: none;
+$font-size-base: 1.2rem;
+$line-height-base: 1.6;
+$headings-font-weight: 500;
+
+$grid-body-width: 680px;
+$grid-margin-width: 260px;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hover-color: $accent;
+
+/*-- scss:rules --*/
+body {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga", "onum";
+}
+
+/* μαστ-χεντ */
+.navbar { border-bottom: 1px solid $rule; box-shadow: none; }
+.navbar .navbar-title { font-style: italic; font-size: 1.35rem; }
+.navbar .nav-link { font-variant: small-caps; letter-spacing: 0.06em; }
+
+/* τίτλοι */
+h1.title { font-style: italic; font-size: 2.5rem; margin-bottom: 0.3em; }
+h2 { font-size: 1.6rem; margin-top: 2.2em; border-bottom: none; }
+.quarto-title-meta { color: $muted; font-variant: small-caps; letter-spacing: 0.04em; }
+
+/* links μέσα στο κείμενο: διακριτική υπογράμμιση */
+main.content p a, main.content li a {
+  border-bottom: 1px solid rgba(139, 46, 46, 0.35);
+}
+main.content p a:hover, main.content li a:hover { border-bottom-color: $accent; }
+
+/* διαχωριστής ενοτήτων (στο markdown: * * *) */
+hr {
+  border: 0; background: none; opacity: 1; height: auto;
+  text-align: center; margin: 2.2em 0;
+}
+hr::after { content: "❦"; font-size: 1.3rem; color: $accent; }
+
+/* πίνακες σε στυλ βιβλίου (μόνο οριζόντιες γραμμές) */
+main.content table {
+  border-top: 1.5px solid $ink !important;
+  border-bottom: 1.5px solid $ink !important;
+}
+main.content table th, main.content table td { border: 0 !important; background: none; }
+main.content table thead th {
+  border-bottom: 1px solid $ink !important;
+  font-variant: small-caps; font-weight: 500;
+}
+
+/* θεωρήματα και αποδείξεις */
+.theorem, .lemma, .proposition, .corollary { font-style: italic; }
+.theorem, .lemma, .proposition, .corollary,
+.definition, .remark, .example, .conjecture {
+  margin: 1.4em 0; padding-left: 1em; border-left: 2px solid $rule;
+}
+.proof { margin: 1.2em 0; }
+.theorem-title, .lemma-title, .proposition-title, .corollary-title,
+.definition-title, .remark-title, .example-title, .conjecture-title {
+  font-style: normal; font-variant: small-caps; letter-spacing: 0.03em;
+}
+
+/* footer και λεπτομέρειες */
+.nav-footer { border-top: 1px solid $rule; color: $muted; font-size: 0.9rem; }
+::selection { background: rgba(139, 46, 46, 0.2); }

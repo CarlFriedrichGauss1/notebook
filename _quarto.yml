@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Explorer"
+  site-url: "https://CarlFriedrichGauss1.github.io/notebook"
+  favicon: favicon.svg
+  navbar:
+    right:
+      - text: "Άρθρα"
+        href: index.qmd
+      - text: "Σχετικά"
+        href: about.qmd
+  page-footer:
+    center: "© 2026 Explorer · Γραμμένο σε LaTeX, φτιαγμένο με Quarto"
+
+filters:
+  - diagram
+
+diagram:
+  engine:
+    tikz:
+      additional-packages: |
+        \usepackage{amsmath,amssymb,tikz-cd}
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    reference-location: margin
+    citation-location: margin
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
