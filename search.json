@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Σχετικά",
+    "section": "",
+    "text": "Λίγα λόγια για σένα."
+  },
+  {
+    "objectID": "posts/test.html",
+    "href": "posts/test.html",
+    "title": "Δοκιμαστικό άρθρο",
+    "section": "",
+    "text": "Inline μαθηματικά \\(x^2\\) και display:\n\\[\n\\sum_{n=1}^{N} n = \\frac{N(N+1)}{2}\n\\]\n\nTheorem 1 ((Όνομα θεωρήματος)) Κείμενο του θεωρήματος εδώ.\n\n\nProof. Κείμενο της απόδειξης εδώ.\n\nΠαραπομπή: Theorem 1. Μια υποσημείωση1.\n1 Αυτό θα εμφανιστεί στο περιθώριο."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Explorer",
+    "section": "",
+    "text": "Γράψε εδώ δύο-τρεις προτάσεις με δική σου φωνή: τι είναι αυτό το μέρος και γιατί υπάρχει.\n\n\n\n\n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\n\n\n\n\n\nOct 4, 2026\n\n\nΔοκιμαστικό άρθρο\n\n\n\n\n\n\nNo matching items"
+  }
+]
