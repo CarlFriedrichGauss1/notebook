@@ -27,8 +27,6 @@ diagram:
         - '\usepackage{amsmath,amssymb}'
         - '\usepackage{tikz-cd}'
         - '\usetikzlibrary{arrows.meta,positioning}'
-        - '\definecolor{pagebg}{HTML}{FAF7F0}'
-        - '\tikzcdset{background color=pagebg}'
 
 
 format:
