@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "93d095614ce79eeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4a4b6f7bda9e4e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b627e25114477ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "test"
+            }
+          },
+          {
+            "id": "89da603fbea8c7bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Existence and uniqueness of maximal atlas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Existence and uniqueness of maximal atlas"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b632e4aaff57b5bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "361592ff7ccb8364",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7ec7722b6d8d8bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "47b5e31b3abe642c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "14217d1fb028de1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6574dda7449bf9b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdcda735d29e3fda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cfdd40f0ecc313e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Existence and uniqueness of maximal atlas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8fdbe96eda9255fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Existence and uniqueness of maximal atlas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e05b799492c56e18",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "da03596f6c4adb31",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2376a5f07481bf70",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Existence and uniqueness of maximal atlas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "89da603fbea8c7bd",
+  "lastOpenFiles": [
+    "test.html",
+    "diagram-bf1dd302ac22c52c814d16a25d0c4b045a2d4903.pdf",
+    "Existence and uniqueness of maximal atlas.html",
+    "Existence and uniqueness of maximal atlas_files/mediabag",
+    "Existence and uniqueness of maximal atlas_files",
+    "test.md",
+    "Existence and uniqueness of maximal atlas.md",
+    "test_files/mediabag/d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc.svg"
+  ]
+}
