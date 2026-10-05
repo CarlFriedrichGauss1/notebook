@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Notes on mathematics: proofs, constructions and figures.">
 
-<title>Explorer</title>
+<title>Page not found – Explorer</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,26 +29,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9ef9d4760de657dc918b81d25b42b59f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f6f6ca1d723d13f8efd0f51be44ce9d9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="/notebook/site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="/notebook/site_libs/quarto-nav/headroom.min.js"></script>
+<script src="/notebook/site_libs/clipboard/clipboard.min.js"></script>
+<script src="/notebook/site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="/notebook/site_libs/quarto-search/fuse.min.js"></script>
+<script src="/notebook/site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="/notebook/">
+<link href="/notebook/./favicon.png" rel="icon" type="image/png">
+<script src="/notebook/site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="/notebook/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="/notebook/site_libs/quarto-html/popper.min.js"></script>
+<script src="/notebook/site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="/notebook/site_libs/quarto-html/anchor.min.js"></script>
+<link href="/notebook/site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="/notebook/site_libs/quarto-html/quarto-syntax-highlighting-9ef9d4760de657dc918b81d25b42b59f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="/notebook/site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="/notebook/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="/notebook/site_libs/bootstrap/bootstrap-f6f6ca1d723d13f8efd0f51be44ce9d9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,72 +74,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Explorer" href="index.xml" data-external="1"><meta property="og:title" content="Explorer">
+<meta property="og:title" content="Page not found – Explorer">
 <meta property="og:site_name" content="Explorer">
-<meta name="twitter:title" content="Explorer">
+<meta name="twitter:title" content="Page not found – Explorer">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -153,7 +92,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="/notebook/index.html">
     <span class="navbar-title">Explorer</span>
     </a>
   </div>
@@ -164,11 +103,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="/notebook/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="/notebook/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -186,7 +125,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Explorer</h1>
+<h1 class="title">Page not found</h1>
 </div>
 
 
@@ -204,10 +143,9 @@ window.Quarto = {
 
 
 <div class="masthead">
-<p><img src="logo.png" class="img-fluid" alt="Hand-drawn devil holding a trident"></p>
+<p><img src="/notebook/logo.png" class="img-fluid" alt="Hand-drawn devil holding a trident"></p>
 </div>
-<p>A few sentences about what this place is for.</p>
-
+<p>There is nothing at this address. Go back to the <a href="/notebook/./index.html">list of posts</a>.</p>
 
 
 
@@ -612,47 +550,7 @@ window.Quarto = {
     }
   });
   </script>
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1791147600000" data-listing-file-modified-sort="1791226923190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="Definitions" data-listing-filename-sort="Something.md">
-<td>
-<span class="listing-date">Oct 5, 2026</span>
-</td>
-<td>
-<a href="./posts/Something.html" class="title listing-title">Definitions</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1791061200000" data-listing-file-modified-sort="1791233181950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1190" data-listing-title-sort="Definitions" data-listing-filename-sort="Existence and uniqueness of maximal atlas.md">
-<td>
-<span class="listing-date">Oct 4, 2026</span>
-</td>
-<td>
-<a href="./posts/Existence and uniqueness of maximal atlas.html" class="title listing-title">Definitions</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></div> <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

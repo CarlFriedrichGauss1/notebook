@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<link href="../favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-9ef9d4760de657dc918b81d25b42b59f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-59041e02a7a3c99c5b622ba5d03cea62.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f6f6ca1d723d13f8efd0f51be44ce9d9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -109,6 +109,10 @@ window.Quarto = {
 };
 </script>
 
+<meta property="og:title" content="– Explorer">
+<meta property="og:site_name" content="Explorer">
+<meta name="twitter:title" content="– Explorer">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -177,7 +181,42 @@ window.Quarto = {
 <section id="definitions" class="level2">
 <h2 data-anchor-id="definitions">Definitions</h2>
 <div id="def-name" class="theorem definition">
-<p><span class="theorem-title"><strong>Definition 1 (Term)</strong></span> Definition here.</p>
+<p><span class="theorem-title"><strong>Definition 1 (Maps)</strong></span> Suppose <span class="math inline">\(\emptyset \neq M\)</span> a set. An <span class="math inline">\(n\)</span>-dimensional map over <span class="math inline">\(M\)</span> is a tuple <span class="math inline">\((U,\phi)\)</span>, where <span class="math inline">\(U \subseteq M\)</span>, <span class="math inline">\(\phi: U \to \mathbb{R}^n\)</span> such that the following conditions are true:</p>
+<ol type="1">
+<li><span class="math inline">\(\phi\)</span> is <span class="math inline">\(1-1\)</span> and onto <span class="math inline">\(\phi(U)\)</span></li>
+<li><span class="math inline">\(\phi(U)\)</span> is an open subset of <span class="math inline">\(\mathbb{R}^n\)</span></li>
+</ol>
+</div>
+</section>
+<section id="figure" class="level2">
+<h2 data-anchor-id="figure">Figure</h2>
+<img src="Existence and uniqueness of maximal atlas_files/mediabag/eb7d933c10fe134c4df4002ce0c666283486da05.svg" class="img-fluid">
+<p>In each of the following definitions we are going to assume that all maps are <span class="math inline">\(C^\infty\)</span> so we will refer to maps being <span class="math inline">\(C^k\)</span> differentiably compatible, for example, as simply being differentiably compatible.</p>
+<div id="def-name" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2 (Differential compatibility)</strong></span> Two maps <span class="math inline">\((U,\phi) , (V,\psi)\)</span> are called differentiably compatible in either one of the following situations</p>
+<ol type="1">
+<li><span class="math inline">\(U \cap V = \emptyset\)</span></li>
+<li><span class="math inline">\(U \cap V \neq \emptyset\)</span>
+<ol type="1">
+<li><span class="math inline">\(\phi(U \cap V)\)</span> and <span class="math inline">\(\psi(U\cap V)\)</span> are open</li>
+<li><span class="math inline">\(\phi \circ \psi^{-1}: \psi(U\cap V) \to \phi(U \cap V)\)</span> is a <span class="math inline">\(C^{\infty}\)</span>-diffeomorphism Essentially we want to get the same information on <span class="math inline">\(\mathbb{R}^n\)</span> for both <span class="math inline">\(\phi\)</span> and <span class="math inline">\(\psi\)</span> when evaluated on the intersection</li>
+</ol></li>
+</ol>
+</div>
+</section>
+<section id="figure-1" class="level2">
+<h2 data-anchor-id="figure-1">Figure</h2>
+<img src="Existence and uniqueness of maximal atlas_files/mediabag/5b2313704599c7f01c74c326f50c372c5579e549.svg" class="img-fluid">
+<div id="def-name" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 3 (Atlas)</strong></span> A collection of maps <span class="math inline">\(\mathcal{A} = \{U_{i} , \phi_{i} \}_{i \in I}\)</span> which satisfy the following conditions</p>
+<ol type="1">
+<li><span class="math inline">\(\{U_{i} \}_{i\in I}\)</span> is a cover of <span class="math inline">\(M\)</span></li>
+<li>For every <span class="math inline">\(i,j \in I\)</span>, <span class="math inline">\((U_{i} , \phi_{i}), (U_{j} , \phi_{j})\)</span> are differentiably compatible. is called an <span class="math inline">\(n-\)</span>dimensional atlas.</li>
+</ol>
+</div>
+<p>We write <span class="math inline">\(\mathfrak{A}_{n}\)</span> the set of all <span class="math inline">\(n\)</span>-dimensinal maps of a set <span class="math inline">\(M \neq \emptyset\)</span>. We can define a partial order induced by the natural inclusion. So we say that for atlases <span class="math inline">\(\mathcal{A,B} \in \mathfrak{A}_{n}\)</span>, <span class="math inline">\(\mathcal{A \leq B} \iff \mathcal{A \subseteq B}\)</span>. We can also define an equivalence relation saying that <span class="math inline">\(\mathcal{A \sim B} \iff \mathcal{A \cup B} \in \mathfrak{A}_{n}\)</span>. We conclude that the last equivalence can be written as <span class="math inline">\(\mathcal{A \sim B} \iff\)</span> every map of <span class="math inline">\(\mathcal A\)</span> is differentiably compatible with every map on <span class="math inline">\(\mathcal B\)</span>. The fact that the equivalence relation is symmetric and reflexive is obvious.</p>
+<div class="proposition">
+<p><strong>Proposition 4.</strong> Let <span class="math inline">\(\mathcal{A}\)</span> be an atlas…</p>
 </div>
 </section>
 <section id="main-result" class="level2">
@@ -191,16 +230,15 @@ window.Quarto = {
 <div class="proof remark">
 <p><span class="proof-title"><em>Remark</em>. </span>Remark here.</p>
 </div>
-<p>Reference to the definition: <a href="#def-name" class="quarto-xref">Definition&nbsp;1</a>. A footnote<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Reference to the definition: . A footnote<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <hr>
 </section>
-<section id="figure" class="level2">
-<h2 data-anchor-id="figure">Figure</h2>
+<section id="figure-2" class="level2">
+<h2 data-anchor-id="figure-2">Figure</h2>
 <img src="Existence and uniqueness of maximal atlas_files/mediabag/58eb79e78c31eaf04ebc6dd9ea20c0c02b9dc9cd.svg" class="img-fluid">
 <img src="Existence and uniqueness of maximal atlas_files/mediabag/509ec1ad141c881b9000df07a95ab1e8077b7bfa.svg" class="img-fluid">
 <img src="Existence and uniqueness of maximal atlas_files/mediabag/c8398253a392a2bb1abb245cd8833c58d85347ee.svg" class="img-fluid">
 <img src="Existence and uniqueness of maximal atlas_files/mediabag/5b2313704599c7f01c74c326f50c372c5579e549.svg" class="img-fluid">
-<img src="Existence and uniqueness of maximal atlas_files/mediabag/eb7d933c10fe134c4df4002ce0c666283486da05.svg" class="img-fluid">
 
 
 </section>
