@@ -1,5 +1,6 @@
 ---
 title: "Explorer"
+description-meta: "Notes on mathematics: proofs, constructions and figures."
 toc: false
 listing:
   contents: posts
@@ -10,5 +11,9 @@ listing:
   filter-ui: false
   feed: true
 ---
+
+::: {.masthead}
+![](logo.png){fig-alt="Hand-drawn devil holding a trident"}
+:::
 
 A few sentences about what this place is for.

@@ -6,7 +6,9 @@ lang: en
 website:
   title: "Explorer"
   site-url: "https://CarlFriedrichGauss1.github.io/notebook"
-  favicon: favicon.svg
+  favicon: favicon.png
+  open-graph: true
+  twitter-card: true
   navbar:
     right:
       - text: "Posts"

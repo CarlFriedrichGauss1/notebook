@@ -11,10 +11,28 @@
             "id": "e9d8024a0ae99e7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Existence and uniqueness of maximal atlas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Existence and uniqueness of maximal atlas"
+            }
+          },
+          {
+            "id": "4174971a94b248d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Something.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Something"
             }
           }
         ]
@@ -79,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6574dda7449bf9b2",
@@ -186,18 +205,21 @@
   },
   "active": "e9d8024a0ae99e7a",
   "lastOpenFiles": [
-    "test_files/mediabag/d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc.svg",
+    "Existence and uniqueness of maximal atlas.html",
+    "diagram-4bd8c6a741cf9cf57dec2ca3113e7bb2680fca9f.pdf",
+    "diagram-7f229f5a473c1abe1a77c05030f2e3b02cddad02.pdf",
+    "diagram-70750f9a5a68d018ea8cc88842b1fcde6d6fb172.pdf",
+    "diagram-fd076bdd29d2000f50f0c82553fa4140f392d5bf.pdf",
+    "diagram-3f61e17c0026c84572174797f6d1e69945895a9e.pdf",
+    "diagram-91b44f561a721653d602cbda0857ba62a65aee30.pdf",
+    "Something.html",
+    "diagram-67928225d66368f2c136eece4eac8c6a8fa0bec0.pdf",
+    "diagram-55113e07270ea23a5612b7ae4159736873bead1e.pdf",
+    "diagram-0fd7cea5cd3539c0822b0f69c5be2a12e2fbb809.pdf",
+    "Something_files/mediabag/d61ed5bcc8b78f1a71b5cdef74b81cb2babac2b5.svg",
+    "Something.md",
     "Existence and uniqueness of maximal atlas.md",
-    "diagram-3a584d50ec765337b57f10ee002deb8982365cf6.pdf",
-    "diagram-447364450ed6e59805a62e00c000522ac985c562.pdf",
-    "diagram-815346ae3b5cf64019222c5b38ce4f0ad8ccdd82.pdf",
-    "diagram-2b186b5323eb53af8cdc87d38026ecd4c7b2dae8.pdf",
-    "diagram-0f9f4323a64cc767546c0df38738922928d1e66e.pdf",
-    "diagram-b39d311ea4ce5e8a0ba0b70506c266baf1f7142d.pdf",
-    "diagram-2be9657bf604b5c037f89ffd6fd43d25bfa87dc1.pdf",
-    "diagram-076f9644d166a4048bb8163257d24a87f966e488.pdf",
-    "diagram-3a53e4cc68cc1c918d6a0899e49e98b36cdf78f6.pdf",
-    "diagram-4d69a530847bba9781e71e601fa3a2cbdaf5fcca.pdf",
+    "test_files/mediabag/d8cbfbf3813eda2ada2f12b128ed02e8460d8fbc.svg",
     "Existence and uniqueness of maximal atlas_files/mediabag/eb7d933c10fe134c4df4002ce0c666283486da05.svg",
     "Existence and uniqueness of maximal atlas_files/mediabag/5b2313704599c7f01c74c326f50c372c5579e549.svg",
     "Existence and uniqueness of maximal atlas_files/mediabag/c8398253a392a2bb1abb245cd8833c58d85347ee.svg",
@@ -207,8 +229,6 @@
     "Existence and uniqueness of maximal atlas_files/mediabag/d211a94caba985a92cf1317806bd03351dc95018.svg",
     "Existence and uniqueness of maximal atlas_files/mediabag/d61ed5bcc8b78f1a71b5cdef74b81cb2babac2b5.svg",
     "Existence and uniqueness of maximal atlas_files/mediabag/ae8c4cfa14c68fa8481f73b3774ff1c0514a497c.svg",
-    "Existence and uniqueness of maximal atlas_files/mediabag/a720cd9b9b4a51b22ec9a7fe9fe286ed0dc82602.svg",
-    "Existence and uniqueness of maximal atlas_files/mediabag/82b317e464fa122c344b23938243b9095adff240.svg",
     "test.md"
   ]
 }

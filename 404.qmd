@@ -1,0 +1,10 @@
+---
+title: "Page not found"
+toc: false
+---
+
+::: {.masthead}
+![](logo.png){fig-alt="Hand-drawn devil holding a trident"}
+:::
+
+There is nothing at this address. Go back to the [list of posts](index.qmd).

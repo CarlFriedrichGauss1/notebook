@@ -2,7 +2,7 @@
 // ===== PALETTE AND FONTS: edit here =====
 $paper:  #faf7f0;
 $ink:    #1f1d1a;
-$muted:  #7a756a;
+$muted:  #6e695e;
 $accent: #8b2e2e;
 $rule:   #ddd6c6;
 
@@ -126,3 +126,9 @@ section.footnotes hr { display: none; }
   zoom: 1.45;
   max-width: 100%;
 }
+
+/* --- masthead figure (home page, 404) --- */
+.masthead { float: right; width: 9.5rem; margin: 0 0 0.75rem 1.75rem; }
+.masthead img { width: 100%; height: auto; display: block; }
+.quarto-listing { clear: both; }
+@media (max-width: 575.98px) { .masthead { width: 6.5rem; margin-left: 1rem; } }
