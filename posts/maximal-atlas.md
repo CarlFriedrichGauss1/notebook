@@ -1,19 +1,19 @@
 ---
-title: ""
+title: "Existence and uniqueness of maximal atlas"
 date: 2026-10-04
 ---
 In this article we are going to show that given an atlas $\mathcal{A} \in \mathfrak{A}_k^n$, which is the set of $n$-dimensional $k$-differentiable atlases, belongs to a unique maximal atlas with respect to the ordering relation.
 
 ## Definitions
 
-::: {#def-name}
+::: {#def-maps}
 ## Maps
 Suppose $\emptyset \neq M$ a set. An $n$-dimensional map over $M$ is a tuple $(U,\phi)$, where $U \subseteq M$, $\phi: U \to \mathbb{R}^n$ such that the following conditions are true: 
 
 1.  $\phi$ is $1-1$ and onto $\phi(U)$
 2.  $\phi(U)$ is an open subset of $\mathbb{R}^n$
 :::
-## Figure 
+
 ```tikz
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta}
@@ -58,7 +58,7 @@ Two maps $(U,\phi) , (V,\psi)$ are called differentiably compatible in either on
 	2. $\phi \circ \psi^{-1}: \psi(U\cap V) \to \phi(U \cap V)$ is a $C^{\infty}$-diffeomorphism
 Essentially we want to get the same information on $\mathbb{R}^n$ for both $\phi$ and $\psi$ when evaluated on the intersection 
 :::
-## Figure
+
 ```tikz
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta}
@@ -110,7 +110,8 @@ Essentially we want to get the same information on $\mathbb{R}^n$ for both $\phi
 A collection of maps $\mathcal{A} = \{U_{i} , \phi_{i} \}_{i \in I}$ which satisfy the following conditions
 
 1. $\{U_{i} \}_{i\in I}$ is a cover of $M$
-2. For every $i,j \in I$, $(U_{i} , \phi_{i}), (U_{j} , \phi_{j})$ are differentiably compatible.
+2. For every $i,j \in I$, $(U_{i} , \phi_{i}), (U_{j} , \phi_{j})$ are differentiably compatible
+
 is called an $n-$dimensional atlas. 
 :::
 
@@ -118,11 +119,15 @@ is called an $n-$dimensional atlas.
 
 We write $\mathfrak{A}_{n}$ the set of all $n$-dimensinal maps of a set $M \neq \emptyset$. We can define a partial order induced by the natural inclusion. So we say that for atlases $\mathcal{A,B} \in \mathfrak{A}_{n}$, $\mathcal{A \leq B} \iff \mathcal{A \subseteq B}$. We can also define an equivalence relation saying that $\mathcal{A \sim B} \iff \mathcal{A \cup B} \in \mathfrak{A}_{n}$. We conclude that the last equivalence can be written as $\mathcal{A \sim B} \iff$ every map of $\mathcal A$ is differentiably compatible with every map on $\mathcal B$. The fact that the equivalence relation is symmetric and reflexive is obvious. 
 
-::: {.proposition}
-**Proposition 4.** Let $\mathcal{A}$ be an atlas...
+:::{#prp-transitivity}
+## Transotivity of the equivalence relation
+
+
 :::
 
-
+:::{.proof}
+proof here
+:::
 ## Main result
 
 ::: {#thm-name}
@@ -141,90 +146,3 @@ Remark here.
 Reference to the definition: . A footnote^[Footnote text.].
 
 * * *
-
-## Figure
-
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-{} \arrow[r, phantom] & H_3 \arrow[r] & H_2 \arrow[r] & H_1 \arrow[r, " f"] & H_0
-\end{tikzcd}
-\end{document}
-```
-
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-    T
-    \arrow[drr, bend left, "x"]
-    \arrow[ddr, bend right, "y"]
-    \arrow[dr, dotted, "{(x,y)}" description] & & \\
-    K & X \times_Z Y \arrow[r, "p"] \arrow[d, "q"]
-    & X \arrow[d, "f"] \\
-    & Y \arrow[r, "g"]
-    & Z
-\end{tikzcd}
-\end{document}
-```
-
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}[row sep=2.5em]
-A' \arrow[rr,"f'"] \arrow[dr,swap,"a"] \arrow[dd,swap,"g'"] &&
-  B' \arrow[dd,swap,"h'" near start] \arrow[dr,"b"] \\
-& A \arrow[rr,crossing over,"f" near start] &&
-  B \arrow[dd,"h"] \\
-C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] && D' \arrow[dr,swap,"d"] \\
-& C \arrow[rr,"k"] \arrow[uu,<-,crossing over,"g" near end]&& D
-\end{tikzcd}
-\end{document}
-```
-```tikz
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta}
-\begin{document}
-\begin{tikzpicture}[>=Stealth, line cap=round, every node/.style={font=\small}]
-  \tikzset{region/.style={draw=blue!60!black, thin},
-           lens/.style={draw=blue!60!black, thin, fill=blue!8}}
-
-  % --- the space X with the two open sets ---
-  \draw[thick] (0,0) rectangle (4.2,4);
-  \node at (2.1,4.3) {$X$};
-  \draw[region] (1.7,2.75) ellipse (1.05 and 0.55);
-  \draw[region] (2.15,1.85) ellipse (0.5 and 1.25);
-  \node at (1.05,2.8) {$U$};
-  \node at (2.15,0.95) {$V$};
-
-  % --- the two charts: coordinate axes ---
-  \draw[thick] (6.1,-0.4) -- (6.1,5.4);
-  \draw[thick] (5.3,0.35) -- (10.9,0.35);
-
-  % --- phi(U) and phi(U cap V) ---
-  \draw[region] (8.4,3.8) circle (1.35);
-  \node at (7.45,5.3) {$\varphi(U)$};
-  \draw[lens] (9.0,3.35) .. controls (9.35,3.75) and (9.25,4.2) .. (8.85,4.4)
-              .. controls (8.6,4.0) and (8.6,3.6) .. cycle;
-  \node[anchor=east] at (8.5,3.8) {\scriptsize $\varphi(U\cap V)$};
-
-  % --- psi(V) and psi(U cap V) ---
-  \draw[region] (8.4,1.15) ellipse (2.0 and 1.05);
-  \node[anchor=west] at (10.5,2.15) {$\psi(V)$};
-  \draw[lens] (9.0,0.75) .. controls (8.95,1.3) and (9.2,1.7) .. (9.5,1.85)
-              .. controls (9.85,1.4) and (9.5,0.9) .. cycle;
-  \node[anchor=east] at (8.8,1.15) {\scriptsize $\psi(U\cap V)$};
-
-  % --- the chart maps ---
-  \draw[->] (2.6,3.0) to[bend left=18] node[above, pos=0.45] {$\varphi$} (7.13,4.26);
-  \draw[->] (2.5,1.7) to[bend right=14] node[below, pos=0.5] {$\psi$} (6.44,0.95);
-
-  % --- the transition maps ---
-  \draw[->, blue!60!black] (9.3,3.3) -- node[right] {\scriptsize $\psi\circ\varphi^{-1}$} (9.45,1.95);
-  \draw[->, blue!60!black] (8.95,1.95) -- node[left]  {\scriptsize $\varphi\circ\psi^{-1}$} (8.8,3.3);
-\end{tikzpicture}
-\end{document}
-```
-
-
