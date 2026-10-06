@@ -1,71 +1,22 @@
 [
   {
-    "objectID": "posts/Something.html#definitions",
-    "href": "posts/Something.html#definitions",
-    "title": "Explorer",
+    "objectID": "posts/maximal-atlas.html#definitions",
+    "href": "posts/maximal-atlas.html#definitions",
+    "title": "Existence and uniqueness of maximal atlas",
     "section": "Definitions",
-    "text": "Definitions\n\nDefinition 1 (Term) Definition here."
+    "text": "Definitions\n\nDefinition 1 (Maps) Suppose \\(\\emptyset \\neq M\\) a set. An \\(n\\)-dimensional map over \\(M\\) is a tuple \\((U,\\phi)\\), where \\(U \\subseteq M\\), \\(\\phi: U \\to \\mathbb{R}^n\\) such that the following conditions are true:\n\n\\(\\phi\\) is \\(1-1\\) and onto \\(\\phi(U)\\)\n\\(\\phi(U)\\) is an open subset of \\(\\mathbb{R}^n\\)\n\n\n\nIn each of the following definitions we are going to assume that all maps are \\(C^\\infty\\) so we will refer to maps being \\(C^k\\) differentiably compatible, for example, as simply being differentiably compatible.\n\nDefinition 2 (Differential compatibility) Two maps \\((U,\\phi) , (V,\\psi)\\) are called differentiably compatible in either one of the following situations\n\n\\(U \\cap V = \\emptyset\\)\n\\(U \\cap V \\neq \\emptyset\\)\n\n\\(\\phi(U \\cap V)\\) and \\(\\psi(U\\cap V)\\) are open\n\\(\\phi \\circ \\psi^{-1}: \\psi(U\\cap V) \\to \\phi(U \\cap V)\\) is a \\(C^{\\infty}\\)-diffeomorphism Essentially we want to get the same information on \\(\\mathbb{R}^n\\) for both \\(\\phi\\) and \\(\\psi\\) when evaluated on the intersection\n\n\n\n\n\nDefinition 3 (Atlas) A collection of maps \\(\\mathcal{A} = \\{U_{i} , \\phi_{i} \\}_{i \\in I}\\) which satisfy the following conditions\n\n\\(\\{U_{i} \\}_{i\\in I}\\) is a cover of \\(M\\)\nFor every \\(i,j \\in I\\), \\((U_{i} , \\phi_{i}), (U_{j} , \\phi_{j})\\) are differentiably compatible\n\nis called an \\(n-\\)dimensional atlas.\n\nWe write \\(\\mathfrak{A}_{n}\\) the set of all \\(n\\)-dimensinal maps of a set \\(M \\neq \\emptyset\\). We can define a partial order induced by the natural inclusion. So we say that for atlases \\(\\mathcal{A,B} \\in \\mathfrak{A}_{n}\\), \\(\\mathcal{A \\leq B} \\iff \\mathcal{A \\subseteq B}\\). We can also define an equivalence relation saying that \\(\\mathcal{A \\sim B} \\iff \\mathcal{A \\cup B} \\in \\mathfrak{A}_{n}\\). We conclude that the last equivalence can be written as \\(\\mathcal{A \\sim B} \\iff\\) every map of \\(\\mathcal A\\) is differentiably compatible with every map on \\(\\mathcal B\\). The fact that the equivalence relation is symmetric and reflexive is obvious.\n\nProposition 1 (Transotivity of the equivalence relation)  \n\n\nProof. proof here"
   },
   {
-    "objectID": "posts/Something.html#main-result",
-    "href": "posts/Something.html#main-result",
-    "title": "Explorer",
-    "section": "Main result",
-    "text": "Main result\n\nTheorem 1 (Name of the theorem) Statement here.\n\n\nProof. Proof here.\n\n\nRemark. Remark here.\n\nReference to the definition: Definition 1. A footnote1."
-  },
-  {
-    "objectID": "posts/Something.html#figure",
-    "href": "posts/Something.html#figure",
-    "title": "Explorer",
-    "section": "Figure",
-    "text": "Figure"
-  },
-  {
-    "objectID": "posts/Something.html#footnotes",
-    "href": "posts/Something.html#footnotes",
-    "title": "Explorer",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nFootnote text.↩︎"
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#definitions",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#definitions",
-    "title": "Explorer",
-    "section": "Definitions",
-    "text": "Definitions\n\nDefinition 1 (Maps) Suppose \\(\\emptyset \\neq M\\) a set. An \\(n\\)-dimensional map over \\(M\\) is a tuple \\((U,\\phi)\\), where \\(U \\subseteq M\\), \\(\\phi: U \\to \\mathbb{R}^n\\) such that the following conditions are true:\n\n\\(\\phi\\) is \\(1-1\\) and onto \\(\\phi(U)\\)\n\\(\\phi(U)\\) is an open subset of \\(\\mathbb{R}^n\\)"
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#figure",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#figure",
-    "title": "Explorer",
-    "section": "Figure",
-    "text": "Figure\n\nIn each of the following definitions we are going to assume that all maps are \\(C^\\infty\\) so we will refer to maps being \\(C^k\\) differentiably compatible, for example, as simply being differentiably compatible.\n\nDefinition 2 (Differential compatibility) Two maps \\((U,\\phi) , (V,\\psi)\\) are called differentiably compatible in either one of the following situations\n\n\\(U \\cap V = \\emptyset\\)\n\\(U \\cap V \\neq \\emptyset\\)\n\n\\(\\phi(U \\cap V)\\) and \\(\\psi(U\\cap V)\\) are open\n\\(\\phi \\circ \\psi^{-1}: \\psi(U\\cap V) \\to \\phi(U \\cap V)\\) is a \\(C^{\\infty}\\)-diffeomorphism Essentially we want to get the same information on \\(\\mathbb{R}^n\\) for both \\(\\phi\\) and \\(\\psi\\) when evaluated on the intersection"
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#figure-1",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#figure-1",
-    "title": "Explorer",
-    "section": "Figure",
-    "text": "Figure\n\n\nDefinition 3 (Atlas) A collection of maps \\(\\mathcal{A} = \\{U_{i} , \\phi_{i} \\}_{i \\in I}\\) which satisfy the following conditions\n\n\\(\\{U_{i} \\}_{i\\in I}\\) is a cover of \\(M\\)\nFor every \\(i,j \\in I\\), \\((U_{i} , \\phi_{i}), (U_{j} , \\phi_{j})\\) are differentiably compatible. is called an \\(n-\\)dimensional atlas.\n\n\nWe write \\(\\mathfrak{A}_{n}\\) the set of all \\(n\\)-dimensinal maps of a set \\(M \\neq \\emptyset\\). We can define a partial order induced by the natural inclusion. So we say that for atlases \\(\\mathcal{A,B} \\in \\mathfrak{A}_{n}\\), \\(\\mathcal{A \\leq B} \\iff \\mathcal{A \\subseteq B}\\). We can also define an equivalence relation saying that \\(\\mathcal{A \\sim B} \\iff \\mathcal{A \\cup B} \\in \\mathfrak{A}_{n}\\). We conclude that the last equivalence can be written as \\(\\mathcal{A \\sim B} \\iff\\) every map of \\(\\mathcal A\\) is differentiably compatible with every map on \\(\\mathcal B\\). The fact that the equivalence relation is symmetric and reflexive is obvious.\n\nProposition 4. Let \\(\\mathcal{A}\\) be an atlas…"
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#main-result",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#main-result",
-    "title": "Explorer",
+    "objectID": "posts/maximal-atlas.html#main-result",
+    "href": "posts/maximal-atlas.html#main-result",
+    "title": "Existence and uniqueness of maximal atlas",
     "section": "Main result",
     "text": "Main result\n\nTheorem 1 (Name of the theorem) Statement here.\n\n\nProof. Proof here.\n\n\nRemark. Remark here.\n\nReference to the definition: . A footnote1."
   },
   {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#figure-2",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#figure-2",
-    "title": "Explorer",
-    "section": "Figure",
-    "text": "Figure"
-  },
-  {
-    "objectID": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
-    "href": "posts/Existence and uniqueness of maximal atlas.html#footnotes",
-    "title": "Explorer",
+    "objectID": "posts/maximal-atlas.html#footnotes",
+    "href": "posts/maximal-atlas.html#footnotes",
+    "title": "Existence and uniqueness of maximal atlas",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nFootnote text.↩︎"
   }
